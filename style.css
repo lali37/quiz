@@ -1,0 +1,77 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right top, #3cf8a7, #f8c4e7, #63ffe2, #8dfdfd, #ffc849);
+    font-family: 'Comic Neue', cursive; /* Or any playful font you prefer */
+}
+
+#quiz-container {
+    width: 80%;
+    max-width: 600px;
+    background-color: rgba(233, 255, 133, 0.9);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+#question {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 10px;
+    background-image: linear-gradient(45deg, #aef665 0%, #85f5fd 100%);
+    color: #000000;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+li button:hover {
+    transform: scale(1.05);
+}
+
+#feedback {
+    font-size: 1.2em;
+    margin: 20px 0;
+    color: #060505;
+}
+
+#score {
+    font-size: 1.5em;
+    color: #0f0f0f;
+}
+
+button#next, button#restart {
+    padding: 10px 20px;
+    background-color: #4cd137;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button#next:hover, button#restart:hover {
+    background-color: #44bd32;
+}
+
+/* If you want to add specific cartoon character backgrounds or elements,
+consider using additional divs or pseudo-elements with background images. */
